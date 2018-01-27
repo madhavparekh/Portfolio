@@ -252,3 +252,35 @@ input{
     background-color: #4aaaa5;
     color: white;
  }
+
+ @media screen and (max-width: 640px){
+    header h1{
+        width: 100%;
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    header nav{
+        display: block;
+        padding: 20px;
+        overflow: auto;
+        width: auto;
+        float: none;
+        text-align: center;
+    }
+
+    #about_me_box{
+        width: 620px;
+        margin: 10px;
+        float: left;
+    }
+
+    #connect_box{
+        width: 620px;
+        margin: 10px;
+        float: left;
+    }
+
+
+ }
