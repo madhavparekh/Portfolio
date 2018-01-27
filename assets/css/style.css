@@ -147,14 +147,15 @@ hr{
 }
 
 #connect_box {
-    width: 270px;
+    margin-left: 5%;
+    width: 25%;
     background-color: #ffffff;
     border: #dddddd;
     float: right;
 }
 
 #about_me_box {
-    width: 650px;
+    width: 70%;
     background-color: #ffffff;
     border: #dddddd;
     float: left;
