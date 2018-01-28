@@ -148,14 +148,14 @@ hr{
 
 #connect_box {
     margin-left: 5%;
-    width: 25%;
+    width: 30%;
     background-color: #ffffff;
     border: #dddddd;
     float: right;
 }
 
 #about_me_box {
-    width: 70%;
+    width: 65%;
     background-color: #ffffff;
     border: #dddddd;
     float: left;
@@ -254,7 +254,17 @@ input{
     color: white;
  }
 
+@media screen and (max-width: 980px){
+    
+    #content_area{
+        width: 100%;
+    }
+}
+
  @media screen and (max-width: 768px){
+    #content_area{
+        width: 100%;
+    }
     /* header h1{
         width: 100%;
         float: none;
@@ -272,15 +282,17 @@ input{
     } */
 
     #about_me_box{
-        width: 75%;
-        margin: 10px;
-        float: left;
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        /* float: left; */
     }
 
     #connect_box{
-        width: 75%;
-        margin: 10px;
-        float: left;
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        margin-bottom: 20px; 
     }
 
 
@@ -298,22 +310,27 @@ input{
     header nav{
         display: block;
         padding: 20px;
-        overflow: auto;
+        /* overflow: auto; */
         width: auto;
         float: none;
         text-align: center;
     }
+    #content_area{
+        width: 100%;
+    }
 
     #about_me_box{
-        width: 60%;
-        margin: 10px;
-        float: left;
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        /* float: left; */
     }
 
     #connect_box{
-        width: 60%;
-        margin: 10px;
-        float: left;
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        margin-bottom: 20px; 
     }
 
 
